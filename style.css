@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: rgb(40, 85, 151);
+    height: 90px;
+    padding: 50px;
+}
+
+.jumbotron .judul h1 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(103, 151, 255);
+}
+
+.navbar .navigasi {
+    width: 100%;
+}
+
+.navbar .navigasi ul {
+    display: flex;
+}
+
+.navbar .navigasi ul li {
+    margin-right: 2rem;
+    list-style: none;
+    font-family: sans-serif;
+    padding: 5px 10px;
+}
+
+.navbar .navigasi ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content .container {
+    height: 830px;
+    padding: 10px;
+}
+
+.content .container .card_1 {
+    background-color: white;
+    width: 950px;
+    margin-bottom: 1rem;
+    padding: 10px 15px;
+    border: 2px solid blue;
+    float: left;
+}
+
+.content .container .card_1 .isi_card {
+    margin: -5px 20px 5px 20px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.content .container .card_1 .isi_card .image {
+    margin-right: 20px;
+}
+
+.content .container .card_1 .isi_card .image img {
+    width: 250px;
+    padding-top: 1.5rem;
+    height: auto;
+}
+
+
+.content .container .card_1 .isi_card h1 {
+    font-size: 25px;
+}
+
+.content .container .card_1 .isi_card .button {
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.content .container .card_2 {
+    width: 250px;
+    margin-right: 2rem;
+    float: right;
+}
+
+.content .container .card_2 h1 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.content .container .card_2 ul li {
+    list-style: none;
+    padding-bottom: 20px;
+    margin-left: -40px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.content .container .card_2 ul li a {
+    text-decoration: none;
+}
